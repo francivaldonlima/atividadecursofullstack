@@ -101,3 +101,37 @@ form .inputField > div input{
   color: #000;
   font-size: 18px;
 }
+
+
+/* Estilizando o footer */
+footer {
+    position: fixed; /* Fixa o footer no fundo da página */
+    bottom: 0; /* Alinha na parte inferior da janela do navegador */
+    left: 0;
+    width: 100%; /* Largura total */
+    
+    margin-top: 100%; /* Espaçamento externo */
+    margin-top: 100%;
+
+
+    
+
+    background-color: #333; /* Cor de fundo */
+    color: white; /* Cor do texto */
+    text-align: center; /* Centraliza o texto */
+    
+}
+
+/* Estilizando os links dentro do footer */
+footer a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+    margin: 0 20px; /* Espaçamento entre os links */
+    border: 1px solid white; /* Adiciona uma borda ao redor do link */
+    padding: 5px; /* Adiciona um pouco de espaço entre o texto do link e a borda */
+    
+}
+
+footer a:hover {
+    text-decoration: white; /* Sublinha os links ao passar o mouse */
+}
